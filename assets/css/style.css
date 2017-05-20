@@ -1,0 +1,65 @@
+.btn {
+ margin: 5px;
+}
+
+.imgDivs {
+	display: block;
+	float: left;
+	margin: 10px;
+}
+
+.imgDivs > p {
+	margin: 0px;
+	text-align: center;
+}
+
+.gifImages {
+	height: 150px;
+}
+
+.jumbotron {
+	padding-left: 5px;
+	padding-right: 5px;
+	min-height: 700px;
+}
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#searchDiv {
+	float: right;
+	margin-bottom: 10px;
+}
+
+/* Small devices (desktops, 768px and up) */
+@media (min-width: 768px) {
+	.gifImages {
+		height: 180px;
+	}
+
+	.container .jumbotron {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.gifImages {
+		height: 220px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.gifImages {
+		height: 250px;
+	}
+	
+	.container .jumbotron {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
